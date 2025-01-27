@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+#menu{
+    margin: 0 auto;
+    background-color: #00565F;
+    width: 1200px;
+}
+
+header > img{
+    width: 40px;
+    margin-top: 70px;
+    margin-left: 58px;
+}
+
+main > h1{
+    width: 453px;
+    height: 62px;
+
+    font-family: "Courgette", serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 66px;
+    margin-left: 373px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#Email{
+    width: 939px;
+    height: 105px;
+
+    background-color: #398269;
+
+    margin-top: 74px;
+    margin-left: 130px;
+}
+#Email::placeholder, #Contraseña::placeholder{
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    position: relative;
+    left: 24px;
+    top: 10px;
+}
+
+#Contraseña{
+    width: 939px;
+    height: 105px;
+
+    background-color: #398269;
+
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+#olvidar{
+    width: 770px;
+    height: 59px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-top: 27px;
+    margin-left: 193px;
+}
+
+button{
+    width: 939px;
+    height: 105px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #FA9C86;
+    margin-top: 49px;
+    margin-left: 130px;
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #000000;
+    cursor: pointer;
+}
+
+#nocuenta{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+
+    margin-top: 50px;
+    margin-left: 163px;
+}
+
+#nocuenta > p{
+    width: 588px;
+    height: 59px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+#nocuenta > a{
+    width: 315px;
+    height: 59px;
+
+    text-decoration: none;
+    color: #FA9C86;
+
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+}
